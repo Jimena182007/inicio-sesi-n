@@ -1,0 +1,55 @@
+:root {
+  --color-primario: #CFBCD6;
+  --color-secundario: #A487CB;
+  --color-de-fondo: #8F88B7;
+  --color-4: #5467AE;
+  --color-5: #3A5F8C;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: var(--color-primario);
+  color: #181717;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#boton-email    { background-color: var(--color-de-fondo); }
+#boton-password { background-color: var(--color-secundario); }
+#boton-olvide   { background-color: var(--color-4); color: white; }
+#boton-login    { background-color: var(--color-5); color: white; }
+
+button:hover {
+  background-color: grey;
+  color: white;
+}
+
+p {
+  line-height: 1.6;
+  color: black;
+  background: linear-gradient(324deg, #F9657F, #A945E7, #4C68DB);
+  margin: 16px 0;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#parrafo-1 {
+  background: radial-gradient(circle, #E8566F, #3FB2E8, #4CDE6E, #EC685E);
+}
